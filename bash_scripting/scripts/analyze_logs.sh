@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Removed quotes so ~ expands correctly
-LOG_DIR=~/portfolio/bash_scripting/01_logs
+LOG_DIR=~/portfolio/bash_scripting/sample_logs
 # APP_LOG="application.log" has been repalces by LOG_FILES
 # SYSTEM_LOG="system.log" has been repalces by LOG_FILES
 ERROR_PATTERNS=("ERROR" "FATAL" "CRITICAL")

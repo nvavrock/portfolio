@@ -3,7 +3,7 @@
 # Handout 01 — completed “cursorized” log analysis script.
 # Implements multi-file scan, error-pattern counts, matching lines, and a saved report.
 
-LOG_DIR=~/portfolio/bash_scripting/01_logs
+LOG_DIR=~/portfolio/bash_scripting/sample_logs
 ERROR_PATTERNS=("ERROR" "FATAL" "CRITICAL")
 REPORT_FILE="${HOME}/portfolio/bash_scripting/log_analysis_report.txt"
 
