@@ -1,0 +1,10 @@
+# Qlik .qvf files are large ZIP archives; committing many (especially 100MB+) breaks git and exceeds GitHub limits.
+# Track only specific apps by un-ignoring their paths below once restored.
+*.qvf
+!**/ncr.qvf
+!**/thinkmetrics.qvf
+
+# Incomplete or mis-extension uploads from failed saves/commits
+*.qvf1
+
+desktop.ini
