@@ -21,7 +21,7 @@ To implement advanced **Data Tidying** protocols with a specific emphasis on **S
 ## Artifact Inventory
 | Artifact Name | Technical Function |
 | :--- | :--- |
-| `ch6_translated_tb.csv` | Normalized and semantically decoded TB dataset. |
+| `ch06_translated_tb.csv` | Normalized and semantically decoded TB dataset. |
 | `tb_clinical_production.png` | Production Asset featuring domain-specific labeling and mandatory source annotation. |
 
 ## Production Metrics

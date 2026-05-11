@@ -53,4 +53,4 @@ arrange(desc(avg_gain))
 # ASSET SERIALIZATION
 # Outcome: Persists refined data to high-integrity CSV format.
 # ------------------------------------------------------------------------------
-write_csv(performance_validation, "ch3_data_transformation/top_carrier_efficiency.csv")
+write_csv(performance_validation, "ch03_data_transformation/top_carrier_efficiency.csv")

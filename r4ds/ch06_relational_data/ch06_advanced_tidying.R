@@ -56,5 +56,5 @@ production_plot <- who_translated |>
   )
 
 # ---- IV. SERIALIZATION -------------------------------------------------------
-ggplot2::ggsave("ch6_relational_data/tb_clinical_production.png", production_plot, dpi = 300)
-readr::write_csv(who_translated, "ch6_relational_data/ch6_translated_tb.csv")
+ggplot2::ggsave("ch06_relational_data/tb_clinical_production.png", production_plot, dpi = 300)
+readr::write_csv(who_translated, "ch06_relational_data/ch06_translated_tb.csv")

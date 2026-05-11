@@ -43,7 +43,7 @@ normalization_validation_plot <- who_normalized |>
     subtitle = "Verification of Tidy Data Architecture and Normalized Age-Group Categorization",
     x        = "Normalized Age Cohort",
     y        = "Validated Case Count (Fixed Scale)",
-    caption  = "Artifact: ch5_normalized_who.csv | Lead Engineer: Nate Vavrock"
+    caption  = "Artifact: ch05_normalized_who.csv | Lead Engineer: Nate Vavrock"
   ) +
   ggplot2::theme_minimal() +
   
@@ -59,11 +59,11 @@ ggplot2::theme(
 # ---- 4.0 Artifact Exit Logic -------------------------------------------------
 # Outcome: Persistent CSV and high-res validation image.
 ggplot2::ggsave(
-  filename = "ch5_data_tidying/normalization_validation.png",
+  filename = "ch05_data_tidying/normalization_validation.png",
   plot     = normalization_validation_plot,
   dpi      = 300,
   width    = 10,
   height   = 7
 )
 
-readr::write_csv(who_normalized, "ch5_data_tidying/ch5_normalized_who.csv")
+readr::write_csv(who_normalized, "ch05_data_tidying/ch05_normalized_who.csv")

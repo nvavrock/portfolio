@@ -33,8 +33,8 @@ The following improvements were implemented to elevate the development environme
 ---
 
 ## Repository Structure
-* **`ch2_workflows.R`**: Contains programmatic assertions of the operational standards.
-* **`ch2_README.md`**: Technical specification of the repository's operational hardening (this file).
+* **`ch02_workflows.R`**: Contains programmatic assertions of the operational standards.
+* **`ch02_README.md`**: Technical specification of the repository's operational hardening (this file).
 
 ---
 

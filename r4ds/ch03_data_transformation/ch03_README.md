@@ -30,8 +30,8 @@ The following standards were enforced to ensure professional-grade reproducibili
 ## Artifact Inventory
 | Artifact Name | Type | Technical Function |
 | :--- | :--- | :--- |
-| `ch3_flight_efficiency.R` | Script | Primary transformation pipeline & logic assertions. |
-| `ch3_flight_viz.R` | Script | Visualization engine using relational metadata joins. |
+| `ch03_flight_efficiency.R` | Script | Primary transformation pipeline & logic assertions. |
+| `ch03_flight_viz.R` | Script | Visualization engine using relational metadata joins. |
 | `top_carrier_efficiency.csv` | Data | Serialized performance indices for carrier benchmarking. |
 | `carrier_metadata.csv` | Metadata | Relational lookup for legal corporate entities. |
 | `carrier_performance_viz.png` | Asset | High-integrity analytic dashboard. |

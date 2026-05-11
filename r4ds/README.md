@@ -19,15 +19,15 @@ Every module in this repository is built to exceed standard instructional benchm
 
 ## Repository Roadmap
 
-### [Ch 1: Visualization Refinement](./ch1_penguin_dimensions/)
+### [Ch 1: Visualization Refinement](./ch01_penguin_dimensions/)
 * **Objective:** Expanding the `palmerpenguins` analysis.
 * **Key Improvement:** Implemented disaggregated regression layers to address Simpson’s Paradox and automated CSV serialization logic.
 
-### [Ch 2: Environmental Hardening](./ch2_workflows/)
+### [Ch 2: Environmental Hardening](./ch02_workflows_basics/)
 * **Objective:** Establishing Operational Standards.
 * **Key Improvement:** Hard-coded IDE configurations for native piping and established a POSIX-compliant naming architecture.
 
-### [Ch 3: The Flight Performance Engine](./ch3_data_transformation/)
+### [Ch 3: The Flight Performance Engine](./ch03_data_transformation/)
 * **Objective:** Engineering high-integrity metrics from `nycflights13`.
 * **Key Improvement:** Developed a normalized "Time Recovery Index" and a defensive pipeline for carrier-level performance auditing.
 

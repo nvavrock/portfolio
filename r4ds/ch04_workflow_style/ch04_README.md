@@ -42,7 +42,7 @@ To verify the **Cyclic Normalization**, this module produces a verification CSV 
 ## Artifact Inventory
 | Artifact Name | Type | Technical Function |
 | :--- | :--- | :--- |
-| `ch4_standardized_analysis.R` | Script | Master analysis engine enforcing all style laws. |
+| `ch04_standardized_analysis.R` | Script | Master analysis engine enforcing all style laws. |
 | `standardized_flight_times.csv` | Data | **Refined Artifact**: Cleaned time-series data for repository users. |
 
 ---

@@ -28,7 +28,7 @@ flights_standardized <- flights |>
 # ------------------------------------------------------------------------------
 write_csv(
   x    = head(flights_standardized, 100),
-  file = "ch4_workflow_style/ch4_time_standardization_verification.csv"
+  file = "ch04_workflow_style/ch04_time_standardization_verification.csv"
 )
 
 # ---- 4.0 Performance Analytics -----------------------------------------------
@@ -60,7 +60,7 @@ performance_viz <- hourly_performance |>
   theme_minimal()
 
 ggsave(
-  filename = "ch4_workflow_style/standardized_performance.png",
+  filename = "ch04_workflow_style/standardized_performance.png",
   plot     = performance_viz,
   width    = 8,
   height   = 4,

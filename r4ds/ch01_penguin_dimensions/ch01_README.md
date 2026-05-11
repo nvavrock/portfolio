@@ -5,7 +5,7 @@ This repository documents a secondary, systematic review of the **R for Data Sci
 
 ---
 
-## Technical Specification: `ch1_penguin_dimensions_viz.R`
+## Technical Specification: `ch01_penguin_dimensions_viz.R`
 The primary script analyzes morphological correlations in the `palmerpenguins` dataset. This version supersedes prior iterations by incorporating the following technical enhancements:
 
 ### 1. Data Sanitization and Integrity
@@ -34,7 +34,7 @@ To address potential misinterpretation of aggregated data trends, the visualizat
 The script implements a robust data-handling pipeline to ensure portability and artifact integrity:
 * **Directory Initialization:** It utilizes `dir.exists()` and `dir.create()` to ensure the `data_exports` folder is present.
 * **Serialization:** Data is exported to `penguins_data.csv` using the `write_csv()` protocol.
-* **Migration Logic:** The script automates a file transfer to the centralized project directory: `C:/Users/me/rStudio/r_for_data_science`.
+* **Migration Logic:** The script automates a file transfer into the chapter directory `ch01_penguin_dimensions/` (project-relative).
 * **Version Currency:** The `file.copy()` operation utilizes the `overwrite = TRUE` parameter to ensure artifact currency.
 
 ---
@@ -45,8 +45,8 @@ This "Back to Basics" approach facilitates the transition from functional profic
 ---
 
 ## Repository Structure
-* `ch1_penguin_dimensions_viz.R`: Primary visualization and data migration script.
-* `ch1_README.md`: Technical documentation and project methodology.
+* `ch01_penguin_dimensions_viz.R`: Primary visualization and data migration script.
+* `ch01_README.md`: Technical documentation and project methodology.
 * `penguins_data.csv`: Standardized data artifact generated for cross-platform accessibility and auditing.
 
 ## Dependencies

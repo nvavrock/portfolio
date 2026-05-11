@@ -59,8 +59,8 @@ write_csv(penguins, file.path(target_dir, "penguins_data.csv"))
 
 # Define the source and the destination
 source_file <- "data_exports/penguins_data.csv"
-destination_path <- "C:/Users/me/rStudio/r_for_data-science/ch1_penguin_dimensions"
+destination_file <- file.path("ch01_penguin_dimensions", "penguins_data.csv")
 
 # Perform the copy operation
 # 'overwrite = TRUE' ensures it updates if the file already exists there
-file.copy(from = source_file, to = destination_path, overwrite = TRUE)
+file.copy(from = source_file, to = destination_file, overwrite = TRUE)

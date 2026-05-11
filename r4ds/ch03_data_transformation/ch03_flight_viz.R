@@ -14,8 +14,8 @@ library(tidyverse)
 # Logic: 'left_join' ensures that performance metrics are enriched with 
 # human-readable carrier names without losing flight data integrity.
 # ------------------------------------------------------------------------------
-efficiency_data <- read_csv("ch3_data_transformation/top_carrier_efficiency.csv") |> 
-  left_join(read_csv("ch3_data_transformation/carrier_metadata.csv"), by = "carrier")
+efficiency_data <- read_csv("ch03_data_transformation/top_carrier_efficiency.csv") |> 
+  left_join(read_csv("ch03_data_transformation/carrier_metadata.csv"), by = "carrier")
 
 # ------------------------------------------------------------------------------
 # DATA VISUALIZATION SPECIFICATIONS
@@ -53,7 +53,7 @@ performance_plot <- efficiency_data |>
 # Output: High-resolution rasterization (300 DPI) for technical documentation.
 # ------------------------------------------------------------------------------
 ggsave(
-  filename = "ch3_data_transformation/carrier_performance_viz.png",
+  filename = "ch03_data_transformation/carrier_performance_viz.png",
   plot = performance_plot,
   width = 9, # Expanded width to accommodate full airline names
   height = 6, 
