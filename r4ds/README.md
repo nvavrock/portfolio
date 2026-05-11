@@ -15,21 +15,49 @@ Every module in this repository is built to exceed standard instructional benchm
 3.  **Defensive Programming:** Implementation of explicit data-integrity checks (NA filtering) and automated filesystem verification (`dir.exists`) to prevent silent failures.
 4.  **Reproducibility Hardening:** Strict "No-Persistence" workspace policy to ensure all results are generated programmatically from raw state.
 
+Detailed naming, serialization, and review rules live in [`guardrails.md`](./guardrails.md).
+
+---
+
+## Repository Layout
+
+Chapter work lives in zero-padded directories (`ch01_…` through `ch08_…`) so modules sort cleanly and match the two-digit chapter prefix on artifacts. Each folder holds its own README (or chapter notes), R scripts, and generated data or figures where applicable.
+
 ---
 
 ## Repository Roadmap
 
-### [Ch 1: Visualization Refinement](./ch01_penguin_dimensions/)
-* **Objective:** Expanding the `palmerpenguins` analysis.
-* **Key Improvement:** Implemented disaggregated regression layers to address Simpson’s Paradox and automated CSV serialization logic.
+### [Ch 1: Visualization refinement](./ch01_penguin_dimensions/)
+* **Objective:** Extend the `palmerpenguins` analysis beyond the textbook baseline.
+* **Key improvement:** Disaggregated regression layers (Simpson’s paradox), CVD-safe palette choices, and CSV export with defensive path handling.
 
-### [Ch 2: Environmental Hardening](./ch02_workflows_basics/)
-* **Objective:** Establishing Operational Standards.
-* **Key Improvement:** Hard-coded IDE configurations for native piping and established a POSIX-compliant naming architecture.
+### [Ch 2: Environmental hardening](./ch02_workflows_basics/)
+* **Objective:** Lock in a reproducible RStudio workflow.
+* **Key improvement:** Native pipe by default, no workspace restore, and consistent snake_case layout for cross-machine runs.
 
-### [Ch 3: The Flight Performance Engine](./ch03_data_transformation/)
-* **Objective:** Engineering high-integrity metrics from `nycflights13`.
-* **Key Improvement:** Developed a normalized "Time Recovery Index" and a defensive pipeline for carrier-level performance auditing.
+### [Ch 3: Flight performance engine](./ch03_data_transformation/)
+* **Objective:** Turn `nycflights13` into auditable carrier metrics.
+* **Key improvement:** Normalized recovery-style indices, metadata joins, and a high-DPI dashboard with explicit relational lookups.
+
+### [Ch 4: Workflow & style (Nate Standard)](./ch04_workflow_style/)
+* **Objective:** Codify style laws for every later module.
+* **Key improvement:** Cyclic time extraction (`%/%` / `%%`), vertical alignment, argument-per-line calls, and mandatory CSV plus `ggsave` exits.
+
+### [Ch 5: Data tidying & validation](./ch05_data_tidying/)
+* **Objective:** Normalize WHO tuberculosis structure into tidy long form.
+* **Key improvement:** Regex-based age cohort labels, fixed-scale validation facets, and paired CSV plus validation figures.
+
+### [Ch 6: Advanced tidying & clinical translation](./ch06_relational_data/)
+* **Objective:** Decode clinical TB codes into stakeholder-ready language.
+* **Key improvement:** `case_match` semantic mapping, disciplined `pivot_longer`, and production plots with mandatory source captions.
+
+### [Ch 7: Data import & resilient normalization](./ch07_data_import/)
+* **Objective:** Import messy external tables without silently dropping valid rows.
+* **Key improvement:** Repair-over-removal typing (e.g. string ages to integers) and preserved census integrity for reporting.
+
+### [Ch 8: Workflow & getting help](./ch08_workflow_getting_help/)
+* **Objective:** Treat help requests as reproducible communication artifacts.
+* **Key improvement:** `reprex`-style minimal examples, native pipe in shared snippets, and explicit `pkg::function()` references.
 
 ---
 
