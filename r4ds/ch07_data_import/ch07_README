@@ -1,0 +1,41 @@
+# Chapter 07: Data Import & Resilient Normalization
+**Project Lead:** Nate Vavrock  
+**Technical Standard:** Version 2.1 (Cascaded Zero-Padding & Dynamic Scaling)
+
+## 1. Overview
+This module demonstrates the **Nate Standard** for importing external datasets with structural inconsistencies. Using `ch07_students.csv`, we implement a "Repair-over-Removal" logic to ensure that every student with a valid meal plan is represented in our production assets, regardless of errors in secondary variables like `age`.
+
+## 2. Technical Logic: Resilient Engineering
+In previous iterations, records with non-numeric age values (e.g., "five") were susceptible to deletion. Under the current **Selective Preservation** guardrail, we have shifted our approach:
+
+* **Structural Repair:** We intercept the string "five" and programmatically convert it to the integer `5` within the `mutate` phase.
+* **Type Integrity:** We utilize `as.integer()` to enforce numeric structure across the `age` column.
+* **Census Retention:** By repairing rather than filtering, we maintain the full population integrity, ensuring our meal plan distribution reflects all valid entries.
+
+
+
+## 3. Visual Standard: Dynamic Asset Mapping
+To eliminate "Dead Code" and ensure visual precision, this chapter implements **Vector Slicing** for all categorical plots:
+
+* **Logic:** The script programmatically counts the active levels of the `meal_plan` factor.
+* **Vector Slicing:** The Okabe-Ito palette is sliced to match this count exactly (e.g., `palette[1:n]`).
+* **Scale Integrity:** Providing more colors than categories is strictly prohibited as it violates the principle of Engineering Rigor.
+
+
+
+## 4. Guardrail Compliance Checklist
+| Rule | Implementation Status |
+| :--- | :--- |
+| **Zero-Padding** | Directory and files use `ch07` notation. |
+| **2-and-4 Indentation** | Applied to all nested function arguments. |
+| **Native Pipe** | Exclusively utilizes `|>`. |
+| **Dynamic Subtitles** | Labels reflect real-time metadata (e.g., N counts). |
+
+
+
+## 5. Artifacts Produced
+* **`ch07_normalized_students.csv`**: Repaired and type-validated dataset stored in the chapter directory.
+* **`student_enrollment_production.png`**: High-resolution (300 DPI) visualization utilizing a sliced color palette.
+
+---
+**Source:** R4DS Student CSV Repository | **Author:** Nate Vavrock
