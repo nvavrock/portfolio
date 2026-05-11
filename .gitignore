@@ -1,0 +1,103 @@
+# =============================================================
+# Python
+# =============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# =============================================================
+# Testing & coverage
+# =============================================================
+.pytest_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# =============================================================
+# Type checking
+# =============================================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# =============================================================
+# Jupyter / IPython
+# =============================================================
+.ipynb_checkpoints/
+.virtual_documents/
+
+# =============================================================
+# Environments & secrets
+# =============================================================
+.env
+*.env.save
+.venv/
+venv/
+env/
+ENV/
+
+# =============================================================
+# IDE / editor settings
+# =============================================================
+.idea/
+.vscode/
+
+# =============================================================
+# OS / shell junk
+# =============================================================
+.DS_Store
+Thumbs.db
+nohup.out
+
+# WSL / Windows-download "Mark of the Web" sidecar files
+*:Zone.Identifier
+
+# =============================================================
+# ML / data project artifacts
+# =============================================================
+# Hugging Face / model downloads
+model_cache/
+
+# Vector stores (Chroma, etc.)
+vector_db/
+products_vectorstore/
+
+# Pickled artifacts produced during course exercises
+*.pkl
+
+# Gradio session cache
+.gradio/
+
+# Weights & Biases local sync data
+wandb/
+
+# Generic diagnostics dropped by various scripts
+**/report.txt
+
+# Images: existing tracked PNGs in qlik-sense/ and r4ds/ stay tracked
+# (this rule only prevents *new* PNGs from being committed by default)
+*.png
+
+# =============================================================
+# Per-project ignores
+# =============================================================
+# Week 5: local-only exploration (notebooks, vector DBs, scratch code)
+week5/*
+
+# Career-agent chatbot: scratch area, not yet ready to publish
+career-agent-chatbot/
+
+# Generic local scratch dir
+local/
