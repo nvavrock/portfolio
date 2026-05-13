@@ -1,0 +1,310 @@
+1. Q: Tell me about yourself.
+A: I�m a Navy veteran who transitioned from Quality Assurance into data and automation. Now I build systems and tools that simplify work, turning messy processes into efficient, data-driven solutions.
+
+2. Q: What are your strengths?
+A: I�m adaptable and analytical, with a knack for finding and fixing root causes. The Navy gave me structure; QA taught precision � together they help me make systems work better than before.
+
+3. Q: What are your weaknesses?
+A: I sometimes take on too many projects because I get excited about new ideas. I�ve learned to manage it through clearer priorities and structured systems that keep my curiosity productive.
+
+4. Q: Describe a challenge you faced at work and how you solved it.
+A: One of my biggest challenges was fixing our QA department�s overloaded Qlik Sense data model. It was built with layers of nested IF statements, no WHERE clauses, and every column loaded � even unused ones � causing massive slowdowns and frequent crashes. None of the dashboards were dynamic, so they had to be rebuilt every fiscal year. At the time, I was only three months into my data analytics work, with just Excel experience and my Google Data Analytics Certificate, working solo with no SQL access or automation tools.
+I decided to rebuild the model from the ground up. I cleaned the logic, added WHERE clauses to limit loads, optimized the Data Load Editor, and validated everything in Excel. I also introduced dynamic fiscal-year filters so the dashboards updated automatically. When it was done, the app loaded in seconds instead of minutes and became far easier to maintain. That experience taught me that clear logic, persistence, and resourcefulness can overcome even complex technical problems � you just have to start with what you have and build smarter.
+
+5. Q: Where do you see yourself in 5 years?
+A: see myself growing Rockstedy Analytics into a full-scale operation that blends data, automation, and AI to help businesses work smarter. My focus will be building intelligent systems that simplify and accelerate real-world work.
+
+6. Q: What motivates you?
+A: I�m driven by turning messy, inefficient systems into smooth, effective ones. Seeing real results from better processes, automation, and data insights keeps me learning and improving.
+
+7. Q: Tell me about a time you worked in a team.
+A: During a major system migration, I coordinated between technical and administrative teams to plan, test, and execute updates with zero downtime. Clear communication and shared accountability kept the project on schedule and the team in sync.
+
+8. Q: What makes you unique?
+A: I blend structure with creativity � discipline from the Navy and innovation from QA and automation. I don�t just follow playbooks; I design better ones when systems need to evolve.
+
+9. Q: Why should we hire you?
+A: I bring structure, curiosity, and hands-on problem-solving from Navy, QA, and IT experience. I don�t just fix issues � I find root causes and build lasting, efficient solutions
+
+10. Q: How do you prioritize tasks?
+A: I focus on what drives the most impact, breaking work into small, visible steps for steady progress. Using Agile principles and the Pendaran Method helps me stay organized and adaptable.
+
+11. Q: What�s one of your greatest professional achievements?
+A: Earning my Safe-for-Flight qualification at FRCSE � a trusted role authorizing aircraft for flight � was a major milestone. More recently, I built a clean, effective dashboard after months of refining, proving my commitment to precision and readiness.
+
+12. Q: Tell me about a time you failed and what you learned.
+ I built a VBA logbook called Aircraft-Sample-Logbook-VBA that streamlined data entry and reporting but wasn�t compatible with our new Microsoft 365 system. It taught me to verify technical fit early, communicate with stakeholders, and design sustainable solutions that adapt to evolving platforms.
+
+13. Q: How do you handle conflict at work?
+A: I focus on the problem, not the person. By listening first and communicating clearly, I find common ground and keep things professional and solution-oriented.
+
+14. Q: How do you keep yourself organized?
+A: I use kanban boards, priorities, and time blocks to stay structured without overcomplicating things. Combining Agile workflows with the Pendaran Method helps me manage multiple projects while keeping focus on the big picture.
+
+15. Q: Do you prefer to work alone or on a team?
+A: I like a balance � solo work helps me focus deeply, while teamwork sparks ideas and momentum. The Navy taught me that real success comes from coordination, trust, and shared goals.
+
+16. Q: What do you look for in a manager?
+A: I value managers who lead with clarity, trust, and open communication. The best leaders set clear expectations, give honest feedback, and empower their teams to perform their best.
+
+17. Q: How do you stay current with new technology?
+A: I stay current by learning continuously through courses, tutorials, and hands-on testing. Curiosity drives me � I learn by experimenting, failing, and improving until I master new tools.
+
+18. Q: How do you handle multiple deadlines?
+A: I prioritize by urgency and impact, breaking work into short, focused sprints with clear checkpoints. Communication and flexibility keep everything on track, even when timelines overlap.
+
+19. Q: What�s your salary expectation?
+A: I�m looking for compensation that matches the responsibility and impact of the role. I aim for the higher end of the range but remain flexible based on scope and value alignment.
+
+20. Q: What type of work environment do you thrive in?
+A: I thrive in structured but flexible environments with clear expectations and room to innovate. I work best around people who take ownership, communicate openly, and focus on progress over perfection.
+
+21. Q: Do you have any questions for us?
+A: Yes � I�d ask about the team�s biggest current challenge, how this role supports company goals, and what success looks like in the first six months. I also care about culture � how people collaborate and grow together.
+
+22. Q: How soon could you start?
+A: I can start quickly once the details are finalized. I ensure a smooth transition wherever I leave, but I�m ready to contribute from day one. 
+
+23. Q: What inspired you to join the Navy? 
+A: I joined for direction, challenge, and purpose � to be part of something bigger than myself. It gave me structure, discipline, and a mindset built on accountability and teamwork. 
+
+24. Q: What was your role and main responsibilities while serving?
+A: I worked in Naval Aviation maintenance, inspecting and troubleshooting aircraft systems to ensure flight safety. Earning my Safe-for-Flight designation taught me precision, responsibility, and the value of doing things right the first time.
+
+25. Q: What was your role and main responsibilities while serving?
+A: I worked in Naval Aviation maintenance, inspecting and troubleshooting aircraft systems to ensure flight safety. Earning my Safe-for-Flight designation taught me precision, responsibility, and the value of doing things right the first time.
+
+26. Q: What did �Safe for Flight� mean to you personally? 
+A: It represented trust and accountability � the confidence that I could uphold the highest technical standards under pressure. Every signature meant lives depended on my work, a responsibility that still guides my attention to detail and integrity today.
+
+27. Q: What was the most challenging part of your job in the Navy?
+A: Balancing speed with precision under pressure. Tight deadlines demanded focus and resilience, but safety was absolute � that mindset still guides how I handle complex system and data challenges today.
+
+28. Q: What was your proudest accomplishment during your Navy career? 
+A: Earning my Safe-for-Flight designation was a major milestone, representing years of trust and precision. I�m equally proud of mentoring younger sailors and helping them grow into confident, capable technicians.
+
+29. Q: What did the Navy teach you about leadership?
+A: Leadership is about accountability and example, not authority. The Navy taught me that trust, calm under pressure, and shared responsibility inspire teams far more than titles ever could.
+
+30. Q: How did you handle high-pressure situations or emergencies? 
+A: I stayed calm, relied on training and checklists, and focused on clear communication. In both aviation and data work, I�ve learned that panic causes errors � process and teamwork prevent them.
+
+31. Q: How did your military experience prepare you for civilian work? 
+A: It gave me structure, discipline, and adaptability. The same principles that kept aircraft safe � procedure, documentation, and communication � now guide how I maintain data integrity and system reliability. 
+
+32. Q: What was teamwork like in your unit? 
+A: Teamwork was everything. Safety and success depended on trust, accountability, and clear communication � lessons that still shape how I collaborate today.
+
+33. Q: Did you ever mentor junior sailors or train others? 
+A: Yes, mentorship was a core part of my role. I trained new sailors on safety, inspections, and documentation � focusing on the �why� behind each step � and took pride in seeing them grow confident and capable.
+
+34. Q: What were some lessons you learned from working in aviation maintenance? 
+A: I learned that details and documentation matter � one missed step can have serious consequences. It taught me precision, humility, and the importance of catching and learning from mistakes early.
+
+35. Q: How did the Navy shape your work ethic? 
+A: The Navy hardwired discipline and accountability into everything I do. No shortcuts, no excuses � every task deserves full attention and consistent execution, no matter the conditions.
+
+36. Q: What kind of technical skills did you gain during your time in service? 
+A: I built expertise in aircraft systems, inspections, and maintenance documentation using tools like NALCOMIS, OOMA, and NAVFIT98A. That hands-on experience with data tracking and reporting gave me an early foundation in databases and analytics.
+
+37. Q: Did you work with data or systems during your Navy career? 
+A: Yes � I managed maintenance data through systems like NALCOMIS, OOMA, ASM, and NAVFIT98A. Working with those tools taught me data accuracy, documentation, and structured workflows that naturally evolved into my analytics and automation skills.
+
+38. Q: How did you adapt to changes or new technology in the military? 
+A: The Navy changed constantly, so adaptability became second nature. I learned to dive in early, study updates, and master new systems � a mindset I still use when working with modern analytics and automation tools.
+
+39. Q: How did you handle difficult supervisors or command situations? 
+A: I stayed professional, focused on the mission, and learned from every leadership style. The experience taught me resilience, respect, and how to communicate effectively even in tough command environments.
+
+40. Q: How did you deal with mistakes, either your own or someone else�s? 
+A: Mistakes were met with accountability, not blame � you owned them, documented them, and fixed them fast. That mindset-built transparency and problem-solving habits I still apply in QA and IT.
+
+41. Q: What was the most important value the Navy instilled in you? 
+A: Integrity � doing the right thing even when no one�s watching. It taught me to follow procedure, stay honest, and never cut corners, values I carry into every data and analytics project.
+
+42. Q: What did a typical day look like for you while serving? 
+A:  My day started with maintenance briefings, followed by inspections, troubleshooting, and documentation. Every task demanded focus and precision, and there was real pride in knowing our work kept people safe.  When I was deployed when worked 12 hours on and 12 hours off, 7 days a week.
+
+43. Q: What did you find most rewarding about your military service?
+A: The sense of purpose � knowing every task contributed to safety and mission success. Helping others grow and seeing the real impact of my work gave me lasting pride.
+
+44. Q: How did your Navy experience influence how you approach problem-solving today? 
+A: The Navy taught me to find root causes before acting. Whether troubleshooting aircraft or data systems, I follow a disciplined process: analyze, document, and fix the issue at its source.
+
+45. Q: How did your military experience shape your communication style?
+A: The Navy taught me to be clear, concise, and direct � especially when precision mattered. I carry that forward by focusing on clarity and purpose in every report, dashboard, or training session.
+
+46. Q: How did you balance following orders with using your own judgment?
+A: I followed orders but stayed ready to think critically when situations demanded it. Clear communication and sound judgment helped me balance discipline with initiative � a skill that still guides my decisions today.
+
+47. Q: How did the Navy prepare you for leadership roles outside the military? 
+A: The Navy taught me that leadership is about example and accountability, not authority. I learned to mentor, give feedback, and build trust � skills I still use to lead projects and guide teams today.
+
+48. Q: What values from your Navy career do you still carry today? 
+A: Integrity, precision, and accountability. I hold myself to the same standards now as I did then � every task, dataset, or system must be right before it moves forward.
+
+49. Q: How did you transition from the Navy into Quality Assurance?
+A: After a stroke and medical retirement in 2018, I focused on rebuilding my skills and purpose. Thanks to Stan Lake and Gene King, who believed in me and helped me return to FRCSE in 2020, I rejoined the QA team � a second chance that proved my resilience and commitment.
+
+50. Q: What does Quality Assurance mean to you?
+A: In NAVAIR, QA means uncompromising safety, precision, and accountability. In IT, it�s the same principle � ensuring data and systems are reliable, accurate, and built to perform exactly as intended.
+
+51. Q: What are your main responsibilities in your past QA roles?
+A:  I audited programs and special processes, managed ERARs, verified risk codes, and ensured data consistency across systems. I also handled IT-related support like printer issues, credential access, Outlook file management, SharePoint updates, get hardware set up. Over time, I began cleaning data and building dashboards for leadership, which led to my selection as interim data analyst for QA � a turning point in my career. I�m especially thankful to Carrie Schofield and Kevin Moore for recognizing my potential and giving me that opportunity.
+
+52. Q: How did your Navy background help in your QA work?
+A: The Navy taught me discipline, procedure, and precision � the foundation of QA. When faced with outdated systems or messy data, I approached them like aircraft discrepancies: isolate the issue, analyze the cause, and correct it. That mindset helped me bring order and reliability to complex QA processes.
+
+53. Q: What tools or software did you use as a Quality Assurance Specialist?
+A: As a QAS, I primarily used Qlik Sense, Excel, and SAP ERP. I pulled data from SAP, cleaned and prepared it in Excel, then built dashboards and reports in Qlik Sense using the Data Load Editor. Working under strict IT security protocols meant no external tools, so I focused on optimizing performance, accuracy, and efficiency within approved systems.
+
+54. Q: Describe a project where you improved a QA process.
+A I streamlined how our QA team accessed and analyzed data from SAP ERP by rebuilding the workflow in Excel and Qlik Sense. Using Qlik�s Data Load Editor, I created dynamic filters and cleaner data models, cutting reporting time from days to hours and giving leadership real-time visibility into inspections, ERARs, and risk trends.
+
+55. Q: What�s your approach to identifying and solving quality issues?
+A: I start with clean, reliable data � pulling from SAP into Excel and analyzing it in Qlik Sense to spot patterns and bottlenecks. Then I focus on the root cause, not the symptom. My rule is simple: don�t fix the chart, fix the cause � a principle shaped by both my Navy and QA experience.
+
+56. Q: How do you ensure compliance and accuracy in your work?
+A: In a controlled government environment, I followed strict data-handling and access protocols. I validated Qlik Sense dashboards against SAP and Excel data before publishing and documented every step so results were fully auditable. In QA, consistency and traceability are the foundation of trust.
+
+57. Q: How do you handle large amounts of data or documentation?
+A: I start by structuring data early � cleaning and segmenting it in Excel, then filtering only what�s relevant through Qlik Sense�s Data Load Editor. This keeps dashboards fast and maintainable. For documentation, I use consistent file paths, version control, and SharePoint tracking to ensure scalability, traceability, and accuracy.
+
+58. Q: How did you develop an interest in automation and data efficiency?
+A: It began from necessity � repetitive manual reporting in QA pushed me to automate tasks with Excel formulas and logic. Seeing how a few smart steps could save hours sparked my passion for automation as a philosophy: build systems that handle the work so people can focus on insight and improvement.
+
+59. Q: What�s your leadership style when working on QA or data projects?
+A: My leadership style is calm, structured, and collaborative. I focus on clear expectations, open communication, and leading by example � guiding rather than micromanaging. That approach, shaped by my Navy and QA experience, builds trust and delivers consistent results.
+
+60. Q: What was one of the biggest challenges you faced in QA, and how did you overcome it?
+A: I inherited a slow, inefficient Qlik Sense model overloaded with nested IF statements and unnecessary SAP and the other databases. After analyzing it, I rebuilt the model from scratch with optimized logic and dynamic filters, cutting load times drastically and transforming how our department used analytics.
+
+61. Q: What were the other databases you used as a QAS?
+A: the Document Management Workflow (DMWF), Joint Deficiency Reporting System (JDRS), Production Status Report (PSR), and NDMS systems. There might have be another one, but I can�t remember?
+
+62. Q: What motivates you to keep learning and improving?
+A: Curiosity and responsibility drive me. I like understanding how things work and improving them so the whole team benefits. Every new skill builds independence and keeps me moving forward, no matter the challenge.
+
+63. Q: How did your experiences lead to starting Rockstedy Analytics?
+A: Rockstedy Analytics combines the structure I learned in the Navy, the precision from QA, and the creativity from automation. The name reflects my philosophy � a solid foundation and steady progress � turning complex data into clear, reliable insights that drive real results.
+
+64. Q: How do you collaborate with other departments or teams?
+A: In QA, I focused on clear communication across departments using dashboards and summaries that made data easy to understand. I translate analytics into practical terms for operations, maintenance, and leadership � bridging the gap between data and decision-making.
+
+65. Q: How do you approach improving systems or workflows that already exist?
+A: I start by observing and understanding how people actually use the system. Then I document it, find redundancies, and rebuild it to be simpler and faster while keeping it familiar. My goal is to make the process easier, not disruptive.
+
+66. Q: What�s your process for troubleshooting complex problems?
+A: I break the problem into smaller parts, isolate variables, and test methodically until the root cause is clear. I document each step and confirm the fix so the solution is repeatable and lasting.
+
+67. Q: How do you stay innovative in a structured environment like QA?
+A: FRCSE had a rigid structure that didn�t promote much cross-functional collaboration � most work stayed within silos. To stay innovative, I stayed curious and agile, constantly asking �why� and looking for smarter ways to follow the rules. By challenging outdated habits and finding small improvements within strict boundaries, I kept innovation alive without breaking compliance.
+
+68. Q: How do you balance technical skill with big-picture thinking?
+A: I see every task as part of a larger mission. Before diving into technical details, I clarify what leadership truly needs from the data. That perspective lets me build precise systems that serve immediate goals while staying flexible for future needs � balancing precision with purpose.
+
+69. Q: What�s the most important lesson you�ve learned from your QA career?
+A: Quality isn�t about perfection � it�s about process. A solid system prevents mistakes before they happen. I learned that consistency, structure, and pride in the details create lasting quality, both in data and in life.
+
+70. Q: How do you handle setbacks or projects that don�t go as planned?
+A: I treat setbacks as feedback � opportunities to learn and adjust. Recovering from a stroke taught me patience, persistence, and the value of observation. Since my communication skills were impacted, I learned to read situations more deeply � paying attention to tone, behavior, and context, almost like analyzing the �metadata� of what�s happening. That awareness helps me adapt quickly and find solutions with clarity and focus.
+
+71. Q: What do you consider your biggest professional strength today?
+A: My biggest strength is systems thinking � seeing how every part of a process connects to the outcome. I combine creativity with structure to design cleaner, more efficient systems that prevent problems instead of just fixing them.
+
+72. Q: What are your long-term professional goals?
+A: My goal is to grow Rockstedy Analytics into a full-service data and automation consultancy that helps organizations build efficient, intelligent systems. By combining QA, IT, and analytics, I want to create sustainable tools that bring clarity and empower better decisions.
+
+73. Q: What advice would you give to someone starting out in QA or analytics?
+A: Start small, stay curious, and master the process before the tools. Your job is to find the truth in the data and make it clear. Take ownership of your work, and don�t fear failure � every mistake is a lesson that sharpens your skill and confidence.
+
+74. Q:  Did you do any deployments when you were in the Navy?
+A:  Yes — I completed two carrier deployments: one aboard the USS Theodore Roosevelt (CVN-71) in 2005–2006 and another on the USS Enterprise (CVN-65) in 2011, both out of Norfolk, VA. On the Roosevelt, we visited Marmaris, Palma, Naples, Corfu, and Dubai. On the Enterprise, we pulled into Lisbon, Palma, Dubai, Marmaris and Bahrain.
+
+75. Q:  What do you know about ERARs?
+A: The Evaluation Request / Action Request (ERAR) system is part of the Fleet Readiness Centers� Document Management Workflow (DMWF). It�s used to track and resolve quality, safety, environmental, and calibration issues through an electronic process that ensures accountability and timeliness. Each ERAR is routed for investigation, root cause analysis, and corrective action based on Risk Assessment Codes (RAC). The system provides full visibility from submission to closure, supporting QA�s role in compliance, process improvement, and maintaining maintenance integrity across the FRC network.
+
+76. Q:  What is NDMS?
+A:  NDMS stands for NAVAIR Depot Maintenance System � the legacy enterprise system used by Fleet Readiness Centers to manage depot-level aviation maintenance. It handles planning, job tracking, materials, labor, and cost data � essentially the ERP backbone for aircraft, engine, and component overhaul. NDMS supports workflows like Electronic Work Orders (EWOs) and connects production control, inventory, and reporting across FRC sites through the �OneNDMS� standardization effort.
+
+77. Q:  What is the NAMP?
+A:  The Naval Aviation Maintenance Program (NAMP) � formally COMNAVAIRFORINST 4790.2 � is the Navy�s rulebook for how all aviation maintenance is performed at the organizational, intermediate, and depot levels. Its mission is to deliver safe, mission-ready aircraft through standardized procedures, documentation, and quality assurance. The NAMP defines maintenance tiers, training, inspection programs, and data systems like NALCOMIS and OOMA to ensure consistency and airworthiness across the entire fleet. In short, it�s the foundation that keeps naval aviation disciplined, safe, and combat-ready.
+
+78. Q:  Why did you decided to freelance?
+A:  I chose to freelance after the Early Resignation Program created a natural turning point in my career. The NAMP once tasked QA with developing Cost of Poor-Quality metrics � meaningful, data-driven work that was later moved to Operations and reduced to basic reporting. I was reassigned to the Router Approval Workflow team handling repetitive tasks and later managed the Rubber Stamp Program, which was largely clerical. Those changes pulled me away from analytical problem-solving, so I chose freelancing to focus on real analytics, automation, and measurable improvements for clients who value data-driven results.
+
+79. Q:  What is the RAW system?
+A:  The Router Approval Workflow (RAW) is an NDMS-based system that controls the digital review and approval of maintenance routers before any depot work begins. After a planner builds or modifies a route in RouteBuilder, it�s submitted through RAW for review by QA specialists, engineers, and production supervisors. Each reviewer verifies the sequence of operations, references, and procedures to ensure compliance with all maintenance and engineering standards.
+The goal of RAW is to enforce configuration control and quality upfront. QA ensures inspection hold points are included, while engineering confirms that any deviations from manuals are properly authorized. Once all required approvals are complete, NDMS locks the router under configuration control � preventing unapproved edits and enabling authorized work orders. This digital approval chain replaces paper routing, speeds up workflow, and ensures every maintenance plan is properly vetted and documented before execution.
+
+80. Q:  What is the EWO system?
+A:  The Electronic Work Order (EWO) system is the execution side of NDMS. Once a maintenance router is approved, NDMS generates EWOs for each task in that route. Artisans use EWOs to access digital work instructions, technical references, and to electronically record their progress and signatures.
+Quality Assurance (QA) inspectors also use the system at designated �hold points,� electronically signing off on required inspections before work can proceed. If discrepancies are found, the EWO routes the job back for correction, ensuring every action is documented.
+By replacing paper work orders, the EWO system gives real-time visibility into production, improves traceability, and drastically reduces administrative delays. It also enhances accountability � every action, signature, and inspection is digitally recorded, providing a complete and auditable maintenance history for each aircraft or component.
+
+81. Q:  What is the RouteBuilder system?
+A: RouteBuilder is the planning backbone of NDMS, used to create and manage detailed maintenance routes for complex assets like aircraft or engines. Planners use it to break down each job into a sequence of operations � specifying work centers, technical references, required materials, estimated labor, and quality checkpoints.
+RouteBuilder links every step to official manuals, drawings, and directives to ensure accurate execution on the shop floor. When updates are needed, planners can modify the route in RouteBuilder, which then enters the Router Approval Workflow (RAW) for review and authorization. In short, RouteBuilder turns maintenance requirements into clear, standardized work instructions that flow directly into the Electronic Work Order (EWO) system for execution.
+
+82. Q:  How these components the Router Approval Workflow, RouteBuilder, and EWO system work together and their impact?
+A:  These three systems work together to form the backbone of NDMS�s digital maintenance workflow. It begins with RouteBuilder, where planners create detailed maintenance routes that outline every operation, reference, and quality checkpoint needed for an aircraft or component. Once complete, the route moves into the Router Approval Workflow (RAW) for electronic review by QA, engineers, and supervisors. This ensures that every step meets technical, safety, and configuration standards before work begins. After approval, NDMS generates Electronic Work Orders (EWOs), which artisans and inspectors use to perform and document their tasks digitally.
+This integration replaces paper-based processes with a seamless, traceable system. Approvals that once took days now happen in hours, and managers can monitor progress in real time. Each action, signature, and inspection is logged in NDMS, ensuring complete configuration control and accountability. The result is faster turnaround, better quality assurance, and stronger confidence that every aircraft or component leaving the depot meets Navy standards and is fully documented for future reference.
+
+83. Q:  What is the Safe-For-Flight qualification?
+A:  The Safe-for-Flight (SFF) qualification is one of the highest responsibilities in U.S. Naval Aviation maintenance. It authorizes designated personnel to certify that an aircraft is airworthy and ready for flight � effectively releasing it from maintenance to operational status. Only individuals formally designated by the Commanding Officer, after completing all required training and qualification standards, can sign the official aircraft acceptance record (OPNAV 4790/141), affirming that all maintenance, inspections, and checks meet Navy standards.
+At Fleet Readiness Centers (like FRC Southeast), SFF-qualified personnel serve as the final authority before an aircraft goes to flight test. They review all documentation, verify configuration control, ensure QA inspections and ground checks are complete, and confirm that servicing and system parameters meet specifications. Once they sign off, the aircraft proceeds to a Functional Check Flight (FCF) with a test pilot.
+Safe-for-Flight certification represents more than a technical qualification � it�s a position of deep trust and accountability. These individuals act as the final quality gate between maintenance and flight operations, ensuring every aircraft leaving the depot has been meticulously reviewed, tested, and verified safe for flight.
+
+84. Q:  What was your experience as qualified as Safe-For-Flight?
+A:  I loved it. I was authorized to sign EA-6B, EA-18G, FA-18A-F, P-3, T-44, T-34. And T-6 aircrafts Safe for Flight.  Having spent most of my career at the I-Level, stepping into the Safe-for-Flight role gave me a new perspective � one that demanded the same fast-paced, high-accountability mindset found at the O-Level. It was incredibly rewarding to see the direct impact of my work and my team�s coordination in getting aircraft safely back in the air.
+I supervised 25 personnel through 291 critical maintenance inspections, identified eight high-time components and two deficient inspections, and helped ensure 38 Functional Check Flights, 58 aircraft transfers, and 29 mission-ready deliveries were completed safely and on time. The experience reinforced my respect for leadership, communication, and technical precision � the foundation of what it truly means to declare an aircraft Safe-for-Flight.
+
+85. Q:  Do you remember when you release your first aircraft for Safe-For-Flight?
+A: Yes, I do � and I still have a copy of the A-Sheet. It was on May 2, 2016, an F/A-18C that had just completed its Functional Check Flight with one pilot aboard and 10,100 pounds of JP-5 fuel. That moment carried a real sense of weight and pride. I�d spent years preparing � mastering inspections, documentation, and compliance under the NAMP � and that signature meant everything was verified, inspected, and ready. Watching the jet taxi and lift off after my certification was surreal. It drove home what Safe-for-Flight truly means: absolute accountability and trust that every detail was right before that aircraft left the ground.
+
+86. Q:  In the Navy, did you get any decorations, medals, ribbons, etc. awared to you?
+A:  Yes. During my naval career, I earned several awards recognizing individual performance and team achievement. These include the Navy and Marine Corps Commendation Medal, Navy and Marine Corps Achievement Medal, and the Meritorious Unit Commendation. I also received five Navy Good Conduct Medals, the National Defense Service Medal, the Global War on Terrorism Expeditionary and Service Medals, and two Sea Service Deployment Ribbons for multiple overseas deployments in support of fleet readiness and global security operations.
+
+87. Q:  What did you get your Navy and Marine Corp Commendation Medal for?
+A: I received the Navy and Marine Corps Commendation Medal for meritorious service as Maintenance Control and Quality Assurance Leading Petty Officer at Fleet Readiness Center Southeast, Jacksonville, from August 2013 to April 2018. I led 25 personnel in completing 760 maintenance inspections and supported 245 Functional Check Flights, increasing F/A-18A-D deliveries by 120% in Fiscal Year 2017. I also managed 67 audits across 15 Integrated Process Teams, helping the detachment earn an �On Track� rating during the 2015 Aviation Maintenance Inspection. The award recognized my leadership, professionalism, and dedication over 15 years of service to Naval Aviation.
+
+88. Q:  What did you get your Navy and Marine Corp Achievement Medal for?
+A:  I earned the Navy and Marine Corps Achievement Medal for professional achievement as the RADAR Work Center Leading Petty Officer at Fleet Readiness Center Mid-Atlantic from June 2009 to June 2013. I led 43 technicians and six artisans in repairing 2,331 F/A-18 RADAR components with a 97% success rate, achieving a cost avoidance of $20.4 million. I also implemented performance metrics that reduced the backlog from 210 to 34 items � an 84% decrease � two months ahead of schedule. The award recognized my leadership, innovation, and commitment to mission success.
+
+89. Q:  In the Navy, what were your primary specialties, NECs, or MOSs?
+A:  During my naval service, I held several advanced Navy Enlisted Classifications (NECs) spanning avionics and maintenance: IFF Technician (6609), Calibration and Advanced Maintenance Technician (6705), CASS Test Station Operator/Maintainer (6704), and Miniature/Micro-Miniature Repair Technician (9527). I also earned EOD Apprentice Diver (5330), a qualification demanding high technical precision, discipline, and safety awareness.
+
+90. Q:  Do you get any Warfare Designations?
+A:  Yes. I earned three warfare designations: Enlisted Aviation Warfare Specialist (AW) aboard the USS Theodore Roosevelt in 2006, Diver (DV) after completing the EOD Diver Course at the Naval Diving and Salvage Training Center in 2008, and Enlisted Surface Warfare Specialist (SW) aboard the USS Enterprise in 2011.
+
+91. Q:  Are you a Shellback?
+A:  To all Sailors wherever ye may be and all mermaids, whales, sea serpents, porpoises, sharks, dolphins, eels, skates, suckers, crabs, lobsters and all other living things of the sea:
+Know ye that:
+22 June 2011 at Latitude 00�00 and Longitude 061� 50� east, this crewmember, was found within the Royal Domain of Neptune Rex, and was found worthy to be numbered as a Trusty Shellback and initiated into the:
+Solemn Mysteries of the Ancient Order of the Deep
+
+92. Q:  What can you say about DWOs?
+A: At the depot level, Discrepant Work Orders (DWOs) are the Navy�s formal method for capturing and correcting internal quality issues discovered during maintenance. Within NDMS, when a product, process, or assembly doesn�t meet technical standards, a Quality Control Inspector (QCI) initiates a DWO in the Quality Assurance Workbench (QAWB) to document and control the discrepancy.
+From the QCI�s perspective, DWOs are more than administrative entries � they�re a critical quality gate. When a QCI finds a non-conformance such as a part out of tolerance or an improper process step, they open a DWO, classify the defect as critical, major, or minor, and coordinate corrective actions with production and QA. They verify rework, update NDMS documentation, and only close the DWO once the defect has been corrected and the product fully meets specifications.
+There are two main categories of DWOs. In-Process DWOs are issued when a defect is caught within the same shop before the product leaves, while Reprocess DWOs occur when a defect is discovered after the product has moved on � indicating the issue escaped its original inspection. QA uses data from both to measure internal quality and target areas for improvement. Frequent reprocess DWOs may signal training or inspection gaps, while in-process DWOs show strong shop-level quality awareness.
+Ultimately, DWOs provide traceability, accountability, and continuous feedback across the maintenance process. They ensure every discrepancy is documented, corrected, and learned from. QCIs � acting as the eyes and ears of QA � are central to that mission, safeguarding compliance, consistency, and the Navy�s high standards of airworthiness at the depot level.
+
+93. Q: Have you used Power BI for data visualization?
+A: Yes, I�ve used Power BI a little, but I haven�t found a strong use case for it in my work so far. I understand how it operates, but to me, it feels a bit too much like a �click-operation� tool � efficient for quick dashboards, but limited when you want full creative or analytical control. I prefer using ggplot in R or matplotlib in Python because they let me customize every part of a visualization � from layout and color to data logic � without being boxed in by templates. That said, if an employer wants me to use Power BI, I�ll adapt and deepen my knowledge of it. It�s just not my first choice for data storytelling or analysis flexibility.
+
+94. Q: What software platforms and tools have you worked with throughout your career?
+A: I�ve worked with Qlik Sense, Excel, Power BI, RStudio with ggplot2, Python (using pandas, matplotlib, numpy, plotly, and openpyxl), Google Data Studio, Streamlit, Gradio, VBA, PowerShell, CMD, GitHub, Visual Studio Code, Cursor IDE, uv package manager, SAP ERP, NDMS, eCAM, RouteBuilder, RAW, EWO systems, SharePoint, Google Sheets, Webflow, Tableau, OneNote, Markdown, Word, PowerPoint, Outlook, Jupyter Notebooks, and Kaggle.
+
+95. Q: Where can we view your portfolio and data projects?
+A: My portfolio is available at https://github.com/nvavrock. It includes hands-on projects in Qlik Sense, Excel, Python, RStudio, and VBA, as well as data automation and visualization work tied to my experience in Quality Assurance. My personal website, Rockstedy Analytics, is currently under construction, but I�ll post the link once it�s live.
+
+97.
+
+98. 
+ 
+
+
+
+
+
+

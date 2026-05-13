@@ -1,0 +1,157 @@
+﻿
+======================================================================
+MASTER BIOGRAPHY – NATHANIEL (NATE) VAVROCK
+======================================================================
+
+CONTACT
+---------------------------------------------------------------------
+Email: rockstedyanalytics@gmail.com
+LinkedIn: www.linkedin.com/in/nate-vavrock-799a18187
+GitHub: github.com/nvavrock
+Hugging Face: huggingface.co/spaces/nvavrock/
+Location: Green Cove Springs, Florida, United States
+
+TAGLINE
+---------------------------------------------------------------------
+Freelance Data Analyst | Dashboards • Automation • Insights • AI
+
+Turning messy data into clear decisions
+
+SUMMARY
+---------------------------------------------------------------------
+I’m Nate Vavrock, a former Navy Aviation Electronics Technician and former 
+Quality Assurance Specialist in Naval Aviation, now a full-time freelance 
+Data Analyst and Automation Specialist. 
+
+I help businesses and organizations turn messy operational data into clear, 
+actionable insights through dashboards, automations, and reports that save 
+time and reduce risk. My tools include Python, R, SQL, Qlik Sense, Excel/VBA, 
+Streamlit, Webflow, and GitHub. I thrive at the intersection of problem-solving, 
+process improvement, and data storytelling.
+
+======================================================================
+FREELANCE CAREER (2025 – Present)
+---------------------------------------------------------------------
+Rockstedy Data & Automation – Freelance Data Analyst / Automation Specialist
+Greater Jacksonville, FL area (Sept 2025 – Present)
+
+Services & Offers:
+- Automation Fix ($500): Automate one workflow (emails, reports, file systems) with setup, walkthrough, and 7-day support.
+- Dashboard Build ($1,200): Clean messy Excel/CSV and deliver an interactive dashboard (Excel, R, or Streamlit) with 2 revisions in 14 days.
+- Data Snapshot ($300): Quick analysis → 3 actionable insights + 1 visualization in a 1-page PDF, delivered in 5 days.
+- I will try to do anything that you want, including a chatbot.
+
+Focus:
+- Helping small businesses and teams save time and reduce risk with scalable data solutions.
+
+Tech:
+- Python, R/ggplot2, Excel/Power Query, Streamlit, PowerShell, VBA, Webflow, GitHub, Cursor, UV, Anaconda, Access, SAP ERP
+
+Highlights:
+- Currently designing and maintaining my own portfolio website using Webflow to showcase projects, services, and client solutions.
+- Actively building and refining projects on GitHub, using version control, branching, and issue tracking as part of my workflow.
+
+======================================================================
+PAST EXPERIENCE (2020 – 2025)
+---------------------------------------------------------------------
+Fleet Readiness Center Southeast (FRCSE)
+
+Quality Systems Support (QSS) Analyst (Mar 2024 – Sep 2025)
+- Represented FRCSE on multi-year NAVAIR Digital Shop Floor (DSF) initiative.
+- Collaborated with COMFRC, NDMS, and cross-depot teams to define software requirements.
+- Ensured accurate technical data, tooling availability, and artisan proficiency.
+- Contributed to processing over 4,000 RAW tickets.
+
+Quality Department Data Architect (Dec 2021 – Apr 2024)
+- Extracted and integrated data from 7+ databases.
+- Used Qlik Sense Data Load Editor to build automated dashboards using DAR (Dashboard, Analysis, Reporting) method.
+- Delivered cost of poor quality models, risk assessments, and recurring reports (weekly, monthly, quarterly, annually).
+
+Program and Process Auditor (Mar 2020 – Dec 2021)
+- Conducted audits of Navy Aviation Maintenance Programs (NAMP) and Special Processes.
+- Audited high-risk processes: NDI, Ball Bearing, Temper Etch, Shot Peening, PMB.
+- Issued ERARs (Evaluation Request Action Requests) – civilian equivalent to NCRs/CARs.
+- Assigned risk codes, initiated root cause analysis, and drove corrective/preventive actions.
+
+======================================================================
+MILITARY SERVICE (2003 – 2018)
+---------------------------------------------------------------------
+United States Department of the Navy – Aviation Electronics Technician
+April 2003 – April 2018 (15 years 1 month)
+
+Fleet Readiness Center Southeast Jacksonville (2013–2018)
+- Supervised 25 personnel, overseeing 760 maintenance inspections → 245 depot-level Functional Check Flight, FCFs, for the Safety-For-Flight.
+- Boosted F/A-18 deliveries by 120% (FY17).
+- Managed 8,653 IMRL items with 100% accuracy.
+- Led 6 investigations, 67 audits, ensuring NAMP compliance.
+- Authorized aircraft “Safe for Flight”, resulting in the delivery of 29 mission-ready aircraft back to the Naval fleet.
+   
+- Avionics Division ALPO: managed 225 Sailors’ training, production, discipline.
+
+Fleet Readiness Center Mid-Atlantic Oceana (2010–2013)
+- Directed 43 Sailors and 6 artisans on 2,331 RADAR component repairs at 97% success rate.
+- Achieved $20.4M cost avoidance; reduced backlog from 210 to 34 items (84% reduction, 2 months early).
+- Supported OEF aboard USS ENTERPRISE, completing 471 inspections on 7 CASS test stations.
+
+Fleet Readiness Center Mid-Atlantic Oceana (2009–2010)
+- Led 23 technicians performing 3,032 maintenance actions.
+- Quality Assurance CDI for Communication/Navigation systems.
+- Programmed/debugged ATLAS software package for aviation repair shop.
+- Operated CASS test stations, pneumatic generator, repaired components.
+
+Navy School Explosive Ordnance Disposal (2008–2009)
+- EOD training student: diving (SCUBA, surface-supplied, mixed gas), hull searches, underwater equipment repair.
+
+Fleet Readiness Center Mid-Atlantic Oceana (2004–2008)
+- QA CDI for Communication/Navigation shop.
+- Repaired avionics: IFF, UHF radios, ILS, TACAN, RADAR altimeters, survival radios, mission computers.
+
+Center for Naval Aviation Technical Training, Pensacola (2003–2004)
+- Learned fundamentals of aviation electronics, electricity, solid-state devices.
+
+Recruit Training Command, Great Lakes (2003)
+- Navy boot camp: military protocol, firefighting, first aid, survival, physical fitness.
+
+======================================================================
+EDUCATION
+---------------------------------------------------------------------
+- Florida State College at Jacksonville – Technical Certificate in Accounting Technology Management (2019, GPA 4.0)
+- Excelsior College – B.A. in Liberal Studies (2010, GPA 3.18)
+
+======================================================================
+CERTIFICATIONS
+---------------------------------------------------------------------
+- Data Visualization: Fundamentals to Interactive Storytelling (University of Pittsburgh, 2025)
+- Google IT Automation with Python (Google, 2025)
+- Applied Software Engineering Fundamentals (IBM, 2025)
+- Python Project for AI and Application Development (IBM, 2025)
+- Data Analytics in the Public Sector with R (University of Michigan, 2025)
+- Google/University of Michigan - Data Analytics Dual Credential (Google, 2025)
+- AWS Cloud Solutions Architect (AWS, 2025)
+- Prompt Engineering (Vanderbilt University, 2024)
+- Google Data Analytics (Google, 2022)
+- Microsoft Excel 2016 Advanced (Microsoft, 2018)
+
+======================================================================
+SKILLS
+---------------------------------------------------------------------
+Top Skills:
+- Automation, Qlik Sense, VBA Programming, Python
+
+Technical Skills:
+- Python, R/ggplot2, SQL/SQLite, Excel/VBA, Qlik Sense, Webflow (portfolio design, client-ready landing pages), Streamlit, GitHub (version control, repositories, branching, issues)
+- Data Modeling, Workflow Automation, BI Dashboarding
+
+Soft Skills:
+- Strong communicator, mentor, and collaborative team member
+- Problem-solver using the Pendaran Method
+- Detail-oriented and iterative
+
+======================================================================
+FUTURE VISION
+---------------------------------------------------------------------
+Short-term: Expand freelance and client roles in Data Analytics and Automation.  
+- Establishing a strong online presence with a Webflow-based portfolio to attract clients and showcase data solutions.  
+
+Long-term: Build Rockstedy Data & Automation into a full-service analytics and automation business, offering dashboards, workflow automations, AI-driven insights, and data science solutions to clients.
+
