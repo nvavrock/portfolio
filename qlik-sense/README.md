@@ -2,11 +2,19 @@
 
 Workspace for Qlik Sense–related material. Large `.qvf` app files are ignored by default in Git (see `.gitignore`); **only** `ncr.qvf` and `thinkmetrics.qvf` are intended to be trackable once they are back in the tree.
 
-> Still need to add to this README,md file.  About what the DAR methodolgy, the process, the data, use the output from Gemini and ChatGPT.  Also, don't forgot about the unpackt material as well.  Also, need to add lessons learned section.
+> Still need to add to this README.md file. About what the DAR methodology, the process, the data, use the output from Gemini and ChatGPT. Also, do not forget about the unpacked material as well. (Lessons learned section is below.)
 
 ## Finding lost copies of `thinkmetrics.qvf` and `ncr.qvf`
 
-These apps were tied to Git history elsewhere and/or were lost during failed commits involving very large binaries. **`qlik-sense` itself may not be a Git repository**, so recovery does not rely on this folder alone. We work through the following in order.
+These apps were tied to Git history elsewhere and/or were lost during failed commits involving very large binaries. **`qlik-sense` itself may not be a Git repository**, so recovery does not rely on this folder alone. **As of now, those `.qvf` copies are treated as not recoverable** from the paths and history we have here; the steps below are what we tried (or would try) if another machine or backup ever turns up.
+
+## Lessons learned
+
+- **Branch before risky work.** Create a branch for experiments, large binary adds, or anything that might go sideways. A straight line of commits on `main` with no escape hatch makes it easy for one unforeseen chain of events to lose work that mattered.
+- **These instances are exactly why branching exists** — so “unfortunate events” do not take out the only copy of precious data.
+- **No Git while drunk.** I am not allowed to use `git` while drunk — no commits, pushes, rebases, force-pushes, or history surgery under the influence. Judgment errors there are irreversible in practice.
+
+We work through the following in order when hunting for lost binaries.
 
 ### 1. Another clone or remote
 
