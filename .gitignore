@@ -97,7 +97,7 @@ wandb/
 week5/*
 
 # Career-agent chatbot: scratch area, not yet ready to publish
-career-agent-chatbot/
+#career-agent-chatbot/
 
 # Generic local scratch dir
 local/
