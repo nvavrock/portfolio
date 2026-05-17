@@ -37,7 +37,7 @@ export TF_VAR_ssh_public_key="$(cat ~/.ssh/id_ed25519.pub)"
 ## Apply
 
 ```bash
-cd cicd/weather-dashboard/terraform
+cd ci-cd/weather-dashboard/terraform
 terraform init
 terraform plan
 terraform apply

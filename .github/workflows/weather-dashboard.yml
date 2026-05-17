@@ -3,11 +3,11 @@ name: weather-dashboard
 on:
   push:
     paths:
-      - "cicd/weather-dashboard/**"
+      - "ci-cd/weather-dashboard/**"
       - ".github/workflows/weather-dashboard.yml"
   pull_request:
     paths:
-      - "cicd/weather-dashboard/**"
+      - "ci-cd/weather-dashboard/**"
       - ".github/workflows/weather-dashboard.yml"
 
 permissions:
@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: cicd/weather-dashboard
+        working-directory: ci-cd/weather-dashboard
     steps:
       - uses: actions/checkout@v4
 
@@ -31,7 +31,7 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: cicd/weather-dashboard/app/requirements.txt
+          cache-dependency-path: ci-cd/weather-dashboard/app/requirements.txt
 
       - name: Install dependencies
         run: |
@@ -72,8 +72,8 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
-          context: cicd/weather-dashboard
-          file: cicd/weather-dashboard/Dockerfile
+          context: ci-cd/weather-dashboard
+          file: ci-cd/weather-dashboard/Dockerfile
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
@@ -107,7 +107,7 @@ jobs:
             exit 0
           fi
           printf '%s' "$KUBECONFIG_B64" | base64 -d > "$KUBECONFIG"
-          cd cicd/weather-dashboard/k8s
+          cd ci-cd/weather-dashboard/k8s
           IMAGE="ghcr.io/${{ github.repository }}/weather-dashboard:${{ github.sha }}"
           kustomize edit set image weather-dashboard="${IMAGE}"
           kubectl apply -k .

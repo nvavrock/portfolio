@@ -50,7 +50,7 @@ The Prometheus Operator CRDs must exist **before** you apply the `ServiceMonitor
 3. Apply:
 
 ```bash
-kubectl apply -f cicd/weather-dashboard/k8s/servicemonitor.yaml
+kubectl apply -f ci-cd/weather-dashboard/k8s/servicemonitor.yaml
 ```
 
 If Prometheus does not pick up the `ServiceMonitor`, inspect Prometheus CR selectors in the `monitoring` namespace and adjust labels accordingly.
