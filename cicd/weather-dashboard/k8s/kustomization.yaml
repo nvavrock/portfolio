@@ -1,14 +1,27 @@
+# =============================================================================
+# Kustomize — apply multiple manifests as one bundle
+# =============================================================================
+# Instead of kubectl apply -f deployment.yaml -f service.yaml ..., run:
+#   kubectl apply -k k8s/
+# Kustomize patches labels/namespace and lists which files to include.
+# =============================================================================
+
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 namespace: default
+# All resources below are created in the "default" namespace unless overridden.
 
 labels:
   - pairs:
       app: weather-dashboard
     includeSelectors: true
+    # Adds label app=weather-dashboard to every resource AND updates selectors
+    # so Deployment, Service, and ServiceMonitor stay aligned.
 
 resources:
   - deployment.yaml
   - service.yaml
   - ingress.yaml
+  # servicemonitor.yaml is applied separately after Prometheus Operator is installed
+  # (see observability/README.md) — not bundled here to avoid apply errors on fresh clusters.

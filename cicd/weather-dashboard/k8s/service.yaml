@@ -1,12 +1,27 @@
+# =============================================================================
+# Kubernetes Service — stable internal address for the app pods
+# =============================================================================
+# Pods come and go (restarts, scaling). A Service gives one DNS name + virtual IP
+# that load-balances to all healthy pods matching its selector.
+# Other pods (or Ingress) talk to weather-dashboard:80, not individual pod IPs.
+# =============================================================================
+
 apiVersion: v1
 kind: Service
 metadata:
   name: weather-dashboard
 spec:
   type: ClusterIP
+  # ClusterIP = reachable only inside the cluster (not directly from the public internet).
+
   selector:
     app: weather-dashboard
+  # Send traffic to pods with label app=weather-dashboard (see deployment.yaml).
+
   ports:
     - name: http
       port: 80
+      # Port other cluster components use when connecting to this Service.
+
       targetPort: http
+      # Forwards to the container port named "http" (8080 on the pod).

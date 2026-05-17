@@ -1,5 +1,16 @@
 # Observability (Prometheus + Grafana)
 
+## In plain terms
+
+**Observability** means you can see how healthy the system is without guessing. This folder covers the **monitoring stack** for the weather dashboard:
+
+- **Prometheus** collects numbers over time (request counts, response times) by calling `/metrics` on each app pod.
+- **Grafana** draws charts from those numbers. Import `grafana-dashboard-weather.json` for ready-made graphs.
+
+The Flask app already exposes metrics in `app/app.py`. Kubernetes wiring is in `k8s/servicemonitor.yaml`. You install Prometheus/Grafana **after** K3s and the app are running.
+
+---
+
 This folder documents how to add **cluster metrics** and **application metrics** for the weather dashboard after K3s is running.
 
 ## Prerequisites
@@ -67,3 +78,10 @@ The dashboard expects Prometheus metrics emitted by the Flask app:
 
 - `weather_http_requests_total`
 - `weather_http_request_duration_seconds_bucket` (histogram)
+
+## What the Grafana JSON charts mean
+
+| Panel | What you are looking at |
+|-------|-------------------------|
+| HTTP request rate | How many requests per second hit each route (/, /api/weather, etc.) and status code |
+| HTTP latency p95 | 95% of requests finished faster than this time — a common “user experience” speed metric |

@@ -1,47 +1,81 @@
+# =============================================================================
+# Kubernetes Deployment — runs multiple copies (pods) of the weather app
+# =============================================================================
+# A Deployment tells Kubernetes: "Keep N identical pods running using this
+# container image." If a pod crashes, Kubernetes starts a replacement.
+# Apply with: kubectl apply -k k8s/   (via kustomization.yaml)
+# =============================================================================
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: weather-dashboard
+  # Human-readable name for this Deployment object in the cluster.
+
 spec:
   replicas: 3
+  # Run three pod copies for availability (traffic spread + survive one failure).
+
   selector:
     matchLabels:
       app: weather-dashboard
+  # Deployment manages pods whose label "app" equals weather-dashboard.
+
   template:
     metadata:
       labels:
         app: weather-dashboard
+      # Pod label — must match selector above; Service uses the same label.
+
     spec:
       containers:
         - name: weather-dashboard
           image: weather-dashboard:latest
+          # Container image from Docker build. In production, use a registry tag
+          # (e.g. ghcr.io/you/weather-dashboard:sha) instead of :latest.
+
           ports:
             - name: http
               containerPort: 8080
+              # Must match Dockerfile EXPOSE / Gunicorn --bind port.
+
           env:
             - name: WEATHER_CITY
               value: "London"
+              # Plain text config — which city OpenWeather returns.
+
             - name: OPENWEATHER_API_KEY
               valueFrom:
                 secretKeyRef:
                   name: weather-openweather
                   key: OPENWEATHER_API_KEY
                   optional: true
+              # Load API key from a Kubernetes Secret (create separately with kubectl).
+              # optional: true = pod still starts if Secret missing (API returns 503).
+
           readinessProbe:
             httpGet:
               path: /healthz
               port: http
             initialDelaySeconds: 3
             periodSeconds: 5
+            # Readiness = "Can this pod receive traffic?" Checks /healthz every 5s
+            # after a 3s grace period on startup.
+
           livenessProbe:
             httpGet:
               path: /healthz
               port: http
             initialDelaySeconds: 10
             periodSeconds: 20
+            # Liveness = "Is the process stuck/dead?" Failure restarts the container.
+
           resources:
             requests:
               cpu: 50m
               memory: 128Mi
+              # Minimum resources scheduled for this pod (0.05 CPU core, 128 MB RAM).
+
             limits:
               memory: 256Mi
+              # Hard cap: pod killed if it exceeds 256 MB RAM (protects the node).

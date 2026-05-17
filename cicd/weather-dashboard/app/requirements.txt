@@ -1,4 +1,21 @@
+# =============================================================================
+# Python package list for the weather-dashboard app (production dependencies)
+# =============================================================================
+# pip reads this file during `docker build` (see Dockerfile) and installs each
+# line into the container's virtual environment. Without these packages, app.py
+# cannot import Flask, call OpenWeather, or expose Prometheus metrics.
+#
+# Format: package==exact.version  (pins versions so rebuilds stay predictable)
+# =============================================================================
+
 flask==3.0.3
+# Web framework: routes HTTP URLs (/ , /api/weather, /healthz, /metrics) to code.
+
 gunicorn==22.0.0
+# Production web server process. Dockerfile CMD runs gunicorn, not `python app.py`.
+
 requests==2.32.3
+# HTTP client library used to call OpenWeatherMap from /api/weather.
+
 prometheus-client==0.20.0
+# Exposes /metrics in Prometheus format for Grafana/monitoring stacks.

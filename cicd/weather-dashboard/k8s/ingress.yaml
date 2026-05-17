@@ -1,16 +1,29 @@
+# =============================================================================
+# Kubernetes Ingress — send external HTTP traffic into the cluster
+# =============================================================================
+# Ingress is the "front door" URL routing layer. On K3s, Traefik is the default
+# ingress controller (ingressClassName: traefik). It watches this object and
+# configures itself to forward public requests to the Service on port 80.
+# =============================================================================
+
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: weather-dashboard
 spec:
   ingressClassName: traefik
+  # Which ingress controller should handle this rule (K3s ships Traefik).
+
   rules:
     - http:
         paths:
           - path: /
             pathType: Prefix
+            # Prefix / = all paths starting with / go to this backend.
+
             backend:
               service:
                 name: weather-dashboard
                 port:
                   number: 80
+              # Route to the ClusterIP Service defined in service.yaml.

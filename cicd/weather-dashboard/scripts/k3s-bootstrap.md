@@ -1,5 +1,18 @@
 # K3s bootstrap (two-node cluster)
 
+## In plain terms
+
+**Terraform** created two empty Linux servers in Oracle Cloud. **K3s** turns them into a small **Kubernetes cluster**:
+
+- **Node 0 (server)** = the boss — stores cluster state, API, scheduling.
+- **Node 1 (agent)** = a worker — runs your app pods.
+
+After this guide, `kubectl` on your laptop can talk to the cluster. Then you apply `k8s/` to run the weather dashboard.
+
+**Order of operations:** Terraform → this bootstrap → `kubectl apply -k k8s/` → observability (optional).
+
+---
+
 These steps match the Terraform layout: **two Ubuntu ARM instances** in the same VCN/security lists as [`../terraform/`](../terraform/).
 
 ## 1) Install the K3s server (node 0)
@@ -16,6 +29,8 @@ On the server:
 curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="server --write-kubeconfig-mode 644" sh -
 sudo k3s kubectl get nodes
 ```
+
+Or run the helper script copied to the server: `bash k3s-server-install.sh`
 
 Copy the **node token** (needed for the agent):
 
@@ -38,6 +53,8 @@ export K3S_URL="https://<SERVER_PRIVATE_IP>:6443"
 export K3S_TOKEN="<NODE_TOKEN_FROM_SERVER>"
 curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="agent" sh -
 ```
+
+Or use `k3s-agent-install.sh` after exporting `K3S_URL` and `K3S_TOKEN`.
 
 Use the **server private IP** (`k3s_private_ipv4[0]`) for `K3S_URL` so traffic stays inside the VCN.
 

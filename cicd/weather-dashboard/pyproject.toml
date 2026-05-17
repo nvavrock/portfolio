@@ -1,16 +1,35 @@
+# =============================================================================
+# Project metadata and tool configuration (not runtime dependencies)
+# =============================================================================
+# This file tells developer tools how to behave. It does NOT install Flask or
+# Gunicorn — that is requirements.txt + Docker. Use this for linting and tests.
+# =============================================================================
+
 [project]
 name = "weather-dashboard"
 version = "0.1.0"
 requires-python = ">=3.12"
+# Minimum Python version; matches Dockerfile (3.12) and Terraform Ubuntu images.
 
 [tool.ruff]
 target-version = "py312"
+# Ruff = fast Python linter/formatter. py312 = assume Python 3.12 syntax rules.
 src = ["app"]
+# Only lint code under app/ (not .venv or terraform).
 line-length = 100
+# Wrap or flag lines longer than 100 characters.
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
+# Enabled rule groups:
+#   E = pycodestyle errors (style)
+#   F = pyflakes (undefined names, unused imports, etc.)
+#   I = isort (import order)
+#   UP = pyupgrade (modernize syntax)
+#   B = flake8-bugbear (likely bugs)
 
 [tool.pytest.ini_options]
 testpaths = ["app/tests"]
+# Where pytest looks for test_*.py files.
 pythonpath = ["app"]
+# Lets tests `from app import app` — same layout as production (app package).

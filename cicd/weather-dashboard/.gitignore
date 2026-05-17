@@ -1,7 +1,23 @@
+# =============================================================================
+# Files Git should NOT commit (local, secret, or regenerated artifacts)
+# =============================================================================
+
 .venv/
+# Local Python virtual environment — huge and machine-specific; recreate with pip/uv.
+
 __pycache__/
+# Compiled Python bytecode folders — rebuilt automatically.
+
 *.tfstate
 *.tfstate.*
+# Terraform state: remembers real cloud resource IDs. Often contains secrets;
+# use remote state in production; never commit to a public repo.
+
 .terraform/
+# Downloaded Terraform provider plugins — run `terraform init` to restore.
+
 *.pem
+# Private keys (e.g. OCI API keys) must never land in git history.
+
 crash.log
+# Terraform crash diagnostics from a failed run.

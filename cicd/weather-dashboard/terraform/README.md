@@ -1,5 +1,17 @@
 # OCI Terraform (weather-dashboard)
 
+## In plain terms
+
+This folder is **Infrastructure as Code** for Oracle Cloud. Instead of clicking in a web console to create networks and servers, you describe them in `.tf` files and run `terraform apply`. Terraform then:
+
+1. Creates a **virtual network** (VCN) and **firewall rules** (security list).
+2. Creates a **public subnet** (a slice of IP addresses reachable from the internet).
+3. Launches **two small ARM Linux VMs** where you will install K3s (Kubernetes).
+
+Terraform does **not** install Kubernetes or deploy the weather app — that happens afterward with `scripts/` and `k8s/`.
+
+---
+
 Provision a small **VCN**, **public subnet**, and **two `VM.Standard.A1.Flex`** instances suitable for installing **K3s**.
 
 ## Prerequisites
@@ -40,3 +52,14 @@ terraform apply
 
 - `admin_cidr` defaults to `0.0.0.0/0` for SSH; set it to your public IP `/32` before `apply`.
 - State files contain sensitive metadata; keep them out of git (see `../.gitignore`).
+
+## Which `.tf` file does what?
+
+| File | Purpose |
+|------|---------|
+| `versions.tf` | Terraform & OCI provider versions; cloud login settings |
+| `variables.tf` | Inputs you must supply (keys, region, SSH key, sizes) |
+| `locals.tf` | Looks up Ubuntu image & availability domain |
+| `network.tf` | VCN, subnet, internet gateway, firewall |
+| `compute.tf` | Two VMs for K3s server + agent |
+| `outputs.tf` | IPs and IDs printed after apply |

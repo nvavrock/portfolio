@@ -1,3 +1,10 @@
+# =============================================================================
+# Prometheus ServiceMonitor — tell Prometheus to scrape /metrics
+# =============================================================================
+# Requires the Prometheus Operator (e.g. kube-prometheus-stack Helm chart).
+# Prometheus discovers Services/Pods via this CRD and polls /metrics on an interval.
+# =============================================================================
+
 apiVersion: monitoring.coreos.com/v1
 kind: ServiceMonitor
 metadata:
@@ -6,11 +13,15 @@ metadata:
     app: weather-dashboard
     # Set this to match your kube-prometheus-stack Helm release so Prometheus picks it up.
     release: kube-prometheus-stack
+    # The "release" label must match how your Prometheus instance selects ServiceMonitors.
 spec:
   selector:
     matchLabels:
       app: weather-dashboard
+    # Scrape Services that have label app=weather-dashboard (our Service gets this via kustomize).
+
   endpoints:
     - port: http
       path: /metrics
       interval: 30s
+      # Every 30 seconds, fetch Prometheus text format from each pod's /metrics.
