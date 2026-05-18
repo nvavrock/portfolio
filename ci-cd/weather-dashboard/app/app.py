@@ -14,30 +14,29 @@ for HTTP requests — the same kind your browser sends when you visit a URL.
 from __future__ import annotations
 
 # --- Standard library (built into Python, no extra install) ---
-
 import os
+
 # `os` lets us read environment variables — configuration values injected at
 # runtime (e.g. OPENWEATHER_API_KEY from Kubernetes secrets or your shell).
-
 import time
-# High-resolution clock used to measure how long each web request takes.
 
+# High-resolution clock used to measure how long each web request takes.
 from typing import Any
+
 # `Any` is a type hint meaning "this value can be almost anything"; used where
 # Flask returns mixed types (dict, Response, tuple, etc.).
-
 # --- Third-party packages (installed via requirements.txt) ---
-
 import requests
-# `requests` performs outbound HTTP calls — here, to OpenWeatherMap's API.
 
+# `requests` performs outbound HTTP calls — here, to OpenWeatherMap's API.
 from flask import Flask, Response, jsonify, render_template_string
+
 # Flask = lightweight web framework: routes URLs to Python functions.
 # Response = raw HTTP response object (used for /metrics binary/text body).
 # jsonify = wraps a Python dict as JSON with correct Content-Type header.
 # render_template_string = turns a string of HTML into a page Flask can return.
-
 from prometheus_client import CONTENT_TYPE_LATEST, Counter, Histogram, generate_latest
+
 # Prometheus client library: collects counters/histograms so monitoring systems
 # can scrape /metrics and graph traffic, errors, and response times.
 

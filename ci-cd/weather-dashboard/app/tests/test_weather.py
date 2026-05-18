@@ -7,6 +7,7 @@ We avoid calling the real OpenWeather API in tests by:
 """
 
 from unittest.mock import patch
+
 # patch = temporarily replace app.requests.get with a controlled fake function.
 
 

@@ -6,9 +6,10 @@ This file defines a "fixture" — reusable test setup that runs before each test
 """
 
 import pytest
-# pytest = testing framework; provides fixtures, assertions, and discovery.
 
+# pytest = testing framework; provides fixtures, assertions, and discovery.
 from app import app as flask_app
+
 # Import the real Flask application from app.py (same object Gunicorn serves).
 
 
